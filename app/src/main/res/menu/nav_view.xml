@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:title="Home">
+            <menu>
+                <item
+                    android:id="@+id/mLocal"
+                    android:icon="@drawable/baseline_place_24"
+                    android:title="Locais" />
+                <item
+                    android:id="@+id/mItensPd"
+                    android:title="Itens perdidos" />
+                <item
+                    android:id="@+id/mPerdiItm"
+                    android:title="Perdi um item" />
+                <item
+                    android:id="@+id/mNotifcacoes"
+                    android:title="Notificações" />
+                <item
+                    android:id="@+id/mSobre"
+                    android:title="Sobre" />
+            </menu>
+        </item>
+
+    </group>
+
+
+</menu>
