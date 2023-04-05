@@ -14,7 +14,27 @@
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="@drawable/baseline_menu" />
 
+
     </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/baseline_notifications_off"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="370dp"
+        android:text="Nenhuma notificação"
+        app:layout_anchorGravity="center" />
+
+
 
 
 
